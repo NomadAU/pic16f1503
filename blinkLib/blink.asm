@@ -12,13 +12,6 @@ RADIX       DEC
 
 #include <xc.inc>
     
-; external variables
-;extrn		bitCount,blinkByte,blinkCount,colourWord
-; external functions
-;extrn		delay1s, delay500ms, delay200ms, delay100ms, delay50ms
-    
-;global		blinkLSBStatusBits, blinkWReg, blink2, blinkLED, blinkLEDnTimes, shortFlash, longFlash, quickBlinkLEDnTimes
-    
     #include "defines.inc"
     #include "blink.inc"
 
