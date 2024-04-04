@@ -62,7 +62,7 @@
 ;				      PIC16F1503
 ;			       +----------:_:----------+
 ;		   +3.3V <>  1 : VDD               VSS : 14 <> GND
-; Beam sensor West Gate  <>  2 : RA5               RA0 : 13 <> 
+;                Button  <>  2 : RA5               RA0 : 13 <> 
 ;			 <>  3 : RA4               RA1 : 12 <> 
 ;			 <>  4 : RA3/MCLR          RA2 : 11 <>      
 ;	      PWM Output <>  5 : RC5               RC0 : 10 <> 
