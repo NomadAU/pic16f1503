@@ -1,4 +1,3 @@
-#ifdef DAC_TEST
 #define USE_MCP4901
 ;#define USE_ALT_DAC_REGISTERS
 ; DACTest: Sample code to demonstrate how to drive the DAC module.  Output was
@@ -252,4 +251,4 @@ flashLED:
     bcf		LATC, LATC_LATC2_POSN
     return
 
-#endif
+END resetVec
